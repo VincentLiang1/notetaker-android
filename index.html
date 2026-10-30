@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>會議助手 Notetaker（Android）</title>
+<meta name="description" content="在手機上錄會議、轉成有講者的逐字稿，錄音不上傳。">
+<link rel="icon" href="images/icon.png">
+<style>
+  :root { --bg: #ffffff; --ink: #1d1d1f; --muted: #6e6e73; --line: #d2d2d7; --card: #f5f2f7; --accent: #7b4f87; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #000000; --ink: #f5f5f7; --muted: #a1a1a6; --line: #424245; --card: #1c1a1e; --accent: #c9a3d4; } }
+  body { background: var(--bg); color: var(--ink); font: 16px/1.65 -apple-system, "PingFang TC", "Noto Sans TC", "Helvetica Neue", sans-serif;
+         max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { display: flex; gap: 16px; align-items: center; margin-bottom: 8px; }
+  header img { width: 72px; height: 72px; border-radius: 16px; }
+  h1 { font-size: 1.7rem; margin: 0; line-height: 1.25; }
+  h1 span { color: var(--accent); font-weight: 500; }
+  .lead { font-size: 1.1rem; margin: 16px 0 8px; }
+  .status { display: inline-block; background: var(--card); color: var(--muted); border-radius: 999px; padding: 2px 12px; font-size: .9rem; }
+  h2 { font-size: 1.2rem; margin: 36px 0 8px; }
+  ul { padding-left: 1.3em; }
+  li { margin: 4px 0; }
+  .shots { display: flex; gap: 12px; overflow-x: auto; padding: 8px 0; }
+  .shots img { width: 220px; max-width: 60vw; border-radius: 14px; border: 1px solid var(--line); flex: none; }
+  .note { background: var(--card); border-radius: 12px; padding: 12px 16px; }
+  a { color: var(--accent); }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0; }
+  footer { color: var(--muted); font-size: .9rem; margin-top: 48px; }
+</style>
+</head>
+<body>
+
+<header>
+  <img src="images/icon.png" alt="">
+  <h1>會議助手 <span>Notetaker</span></h1>
+</header>
+<p class="status">Android 版・封閉測試中</p>
+
+<p class="lead">在手機上把會議錄音轉成逐字稿，分出誰說了什麼。<strong>錄音、逐字稿、講者聲紋都留在你的手機上，不上傳。</strong></p>
+
+<div class="shots">
+  <img src="images/screenshot-1-welcome.png" alt="歡迎畫面：功能特色">
+  <img src="images/screenshot-2-recording.png" alt="錄音中：計時與重點標記">
+  <img src="images/screenshot-3-settings.png" alt="設定畫面">
+</div>
+
+<h2>能做什麼</h2>
+<ul>
+  <li><strong>錄音</strong>：鎖螢幕、切到別的 App 也繼續錄，一場兩小時沒問題。通知列看得到錄音時間，也能從通知停止。</li>
+  <li><strong>逐字稿</strong>：錄完在手機上轉成逐字稿，自動分出不同講者、加上標點。支援繁體中文、簡體中文、英文。</li>
+  <li><strong>記得講者</strong>：替講者命名一次，下次開會自動認出、標上名字。</li>
+  <li><strong>重點標記</strong>：開會時聽到重點按 ★，可以加備註；逐字稿會標出那個時間點。</li>
+  <li><strong>會議紀錄</strong>：一鍵把逐字稿交給 ChatGPT 或 Claude 寫會議紀錄（提示詞已內建）；也可以用手機上的離線 AI（Gemini Nano、Qwen、Gemma）產生草稿。</li>
+  <li><strong>預約錄音</strong>：設定會議時間，時間到跳出提醒，點一下就開始錄。</li>
+  <li><strong>一鍵開錄</strong>：快速設定面板加上「會議助手」磚，拉下來就能開錄。</li>
+  <li><strong>匯出</strong>：逐字稿是 Markdown 檔，可以分享，或自動放進你選的資料夾（例如 Google 雲端硬碟），整理進自己的知識庫。</li>
+  <li><strong>摺疊手機</strong>：外螢幕、內螢幕都能用，開闔時錄音不中斷。</li>
+</ul>
+
+<h2>隱私</h2>
+<ul>
+  <li>錄音與轉文字都在手機上完成，App 沒有帳號，也沒有伺服器。</li>
+  <li>只有你自己按「分享」「上傳 ChatGPT 或 Claude」，或選了雲端資料夾時，檔案才會交給那個服務。</li>
+  <li>手機內建的 Gemini Nano 會把<strong>不含會議內容</strong>的使用統計送給 Google。詳見<a href="privacy.html">隱私權政策</a>。</li>
+</ul>
+
+<h2>使用需求</h2>
+<ul>
+  <li>Android 12 以上（64 位元手機）。</li>
+  <li>手機空間：App 與轉文字模型約 550 MB；錄音每小時約 115 MB。</li>
+  <li>裝好後，Google Play 會接著下載轉文字用的模型（約 430 MB），用行動網路下載前會先問你。模型還沒下載完也能錄音，下載完會自動產生逐字稿。</li>
+  <li>離線 AI：Gemini Nano 要手機支援；不支援的手機可以改下載 Qwen 或 Gemma（各約 3～4 GB）。</li>
+</ul>
+
+<h2>想試用</h2>
+<p class="note">目前是 Google Play 封閉測試，要先加入測試名單才能安裝。想參加或有問題，請寫信到 <a href="mailto:notetaker.vli@gmail.com">notetaker.vli@gmail.com</a>；已經裝好的，可以在 App 的「設定 › 關於 › 回報問題」寫信給我們。</p>
+
+<hr>
+
+<h1 lang="en" style="font-size:1.4rem">Notetaker <span>for Android</span></h1>
+<div lang="en">
+<p class="lead">Turns meeting recordings into transcripts on your phone and tells you who said what. <strong>Recordings, transcripts and speaker voiceprints stay on your phone.</strong></p>
+<ul>
+  <li><strong>Record</strong> with the screen locked or while using other apps, for meetings of two hours or more.</li>
+  <li><strong>Transcripts</strong> made on the phone, with speakers separated and punctuation added. Traditional Chinese, Simplified Chinese and English.</li>
+  <li><strong>Remembers speakers</strong>: name a voice once and it is labelled automatically next time.</li>
+  <li><strong>Highlights</strong>: tap ★ during the meeting and add a note.</li>
+  <li><strong>Minutes</strong>: send the transcript to ChatGPT or Claude with a built-in prompt, or draft them with on-device AI (Gemini Nano, Qwen, Gemma).</li>
+  <li><strong>Scheduled recording</strong>, a Quick Settings tile, Markdown export to a folder you choose, and support for foldables.</li>
+</ul>
+<p>Requires Android 12 or later (64-bit). Gemini Nano sends usage statistics without meeting content to Google; see the <a href="privacy.html">privacy policy</a>. Currently in closed testing on Google Play — to join, email <a href="mailto:notetaker.vli@gmail.com">notetaker.vli@gmail.com</a>.</p>
+</div>
+
+<footer>© 2026 Vincent Liang ・ <a href="privacy.html">隱私權政策 Privacy Policy</a></footer>
+</body>
+</html>
