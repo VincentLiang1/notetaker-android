@@ -34,7 +34,7 @@
   <img src="images/icon.png" alt="">
   <h1>會議助手 <span>Notetaker</span></h1>
 </header>
-<p class="status">Android 版・封閉測試中</p>
+<p class="status">Android 版・封閉測試中</p> <a href="#en" style="margin-left:8px">English ↓</a>
 
 <p class="lead">在手機上把會議錄音轉成逐字稿，分出誰說了什麼。<strong>錄音、逐字稿、講者聲紋都留在你的手機上，不上傳。</strong></p>
 
@@ -78,18 +78,52 @@
 
 <hr>
 
-<h1 lang="en" style="font-size:1.4rem">Notetaker <span>for Android</span></h1>
-<div lang="en">
-<p class="lead">Turns meeting recordings into transcripts on your phone and tells you who said what. <strong>Recordings, transcripts and speaker voiceprints stay on your phone.</strong></p>
+<div lang="en" id="en">
+<header>
+  <img src="images/icon.png" alt="">
+  <h1>Notetaker <span>for Android</span></h1>
+</header>
+<p class="status">Closed testing on Google Play</p>
+
+<p class="lead">Turns meeting recordings into transcripts on your phone and tells you who said what. <strong>Recordings, transcripts and speaker voiceprints stay on your phone and are never uploaded.</strong></p>
+
+<div class="shots">
+  <img src="images/screenshot-en-1-welcome.png" alt="Welcome screen: features">
+  <img src="images/screenshot-en-2-recording.png" alt="Recording: timer and highlights">
+  <img src="images/screenshot-en-3-settings.png" alt="Settings">
+</div>
+
+<h2>What it does</h2>
 <ul>
-  <li><strong>Record</strong> with the screen locked or while using other apps, for meetings of two hours or more.</li>
-  <li><strong>Transcripts</strong> made on the phone, with speakers separated and punctuation added. Traditional Chinese, Simplified Chinese and English.</li>
-  <li><strong>Remembers speakers</strong>: name a voice once and it is labelled automatically next time.</li>
-  <li><strong>Highlights</strong>: tap ★ during the meeting and add a note.</li>
-  <li><strong>Minutes</strong>: send the transcript to ChatGPT or Claude with a built-in prompt, or draft them with on-device AI (Gemini Nano, Qwen, Gemma).</li>
-  <li><strong>Scheduled recording</strong>, a Quick Settings tile, Markdown export to a folder you choose, and support for foldables.</li>
+  <li><strong>Record</strong>: keeps recording with the screen locked or while you use other apps, for meetings of two hours or more. The notification shows the recording time, and you can stop from there.</li>
+  <li><strong>Transcripts</strong>: when you stop, the recording is transcribed on the phone, with speakers separated and punctuation added. Traditional Chinese, Simplified Chinese and English.</li>
+  <li><strong>Remembers speakers</strong>: name a speaker once and they are recognised and labelled automatically in later meetings.</li>
+  <li><strong>Highlights</strong>: tap ★ when you hear a key point and add a note; the transcript marks that moment.</li>
+  <li><strong>Minutes</strong>: send the transcript to ChatGPT or Claude in one tap (the prompt is built in), or draft the minutes with on-device AI (Gemini Nano, Qwen or Gemma).</li>
+  <li><strong>Scheduled recording</strong>: set the meeting time; a reminder pops up on time and one tap starts recording.</li>
+  <li><strong>One-tap recording</strong>: add the Notetaker tile to Quick Settings and start recording from the pull-down panel.</li>
+  <li><strong>Export</strong>: transcripts are Markdown files. Share them, or have them saved to a folder you choose (for example Google Drive) to build your own knowledge base.</li>
+  <li><strong>Foldables</strong>: works on both the cover screen and the inner screen, and folding or unfolding never interrupts a recording.</li>
 </ul>
-<p>Requires Android 12 or later (64-bit). Gemini Nano sends usage statistics without meeting content to Google; see the privacy policy: <a href="https://vincentliang1.github.io/notetaker-android/privacy.html">https://vincentliang1.github.io/notetaker-android/privacy.html</a>. Currently in closed testing on Google Play — to join, email <a href="mailto:notetaker.vli@gmail.com">notetaker.vli@gmail.com</a>.</p>
+
+<h2>Privacy</h2>
+<ul>
+  <li>Recording and transcription happen entirely on the phone. There is no account and no server.</li>
+  <li>Files leave the phone only when you tap Share or Send to ChatGPT or Claude, or when you choose a cloud folder yourself.</li>
+  <li>Gemini Nano, built into the phone, sends usage statistics to Google that <strong>do not include meeting content</strong>. See the privacy policy for details.</li>
+</ul>
+<p class="note">Notetaker Privacy Policy (Android):<br><a href="https://vincentliang1.github.io/notetaker-android/privacy.html">https://vincentliang1.github.io/notetaker-android/privacy.html</a></p>
+
+<h2>Requirements</h2>
+<ul>
+  <li>Android 12 or later (64-bit phones).</li>
+  <li>Storage: about 550 MB for the app and transcription models; recordings take about 115 MB per hour.</li>
+  <li>After installation, Google Play downloads the transcription models (about 430 MB); it asks before using mobile data. You can record before the download finishes, and transcripts are made automatically once it does.</li>
+  <li>On-device AI: Gemini Nano needs a supported phone. On other phones you can download Qwen (2.8 GB) or Gemma (3.7 GB) instead.</li>
+</ul>
+
+<h2>Try it</h2>
+<p class="note">Notetaker is in closed testing on Google Play, so you need to be added to the tester list before you can install it. To join or ask a question, email <a href="mailto:notetaker.vli@gmail.com">notetaker.vli@gmail.com</a>. If you already have the app, use Settings › About › Report a Problem.</p>
 </div>
 
 <footer>© 2026 Vincent Liang ・ <a href="privacy.html">隱私權政策 Privacy Policy</a></footer>
