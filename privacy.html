@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>會議助手 Notetaker 隱私權政策（Android）</title>
+<style>
+  :root { --bg: #ffffff; --ink: #1d1d1f; --muted: #6e6e73; --line: #d2d2d7; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #000000; --ink: #f5f5f7; --muted: #a1a1a6; --line: #424245; } }
+  body { background: var(--bg); color: var(--ink); font: 16px/1.65 -apple-system, "PingFang TC", "Noto Sans TC", "Helvetica Neue", sans-serif;
+         max-width: 680px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; margin: 28px 0 6px; }
+  .date { color: var(--muted); margin: 0 0 24px; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0; }
+  ul { padding-left: 1.3em; }
+</style>
+</head>
+<body>
+<h1>會議助手 隱私權政策（Android 版）</h1>
+<p class="date">最後更新：2026 年 10 月 30 日</p>
+
+<p>會議助手在你的 Android 手機上錄音、轉成逐字稿。<strong>你的錄音、逐字稿與會議內容不會離開你的手機</strong>，我們也沒有伺服器可以收。唯一的例外是下面「Google 的系統元件」那一段：手機內建的 Gemini Nano 會把不含會議內容的使用統計送給 Google。</p>
+
+<h2>錄音與逐字稿</h2>
+<ul>
+  <li>錄音、逐字稿、會議草稿都在你的手機上產生、存在你的手機上，不會上傳。</li>
+  <li>講者聲紋與與會名單只存在你的手機上。</li>
+  <li>你按「分享」或「上傳 ChatGPT 或 Claude」時，檔案交給你選的 App（郵件、LINE、ChatGPT、Claude 等），之後由那個 App 處理。</li>
+  <li>你在設定裡自己選了「送出資料夾」或「聲紋同步資料夾」時，App 會把檔案寫進你選的資料夾。如果那是雲端硬碟（例如 Google 雲端硬碟）的資料夾，檔案會由那個雲端服務上傳與保存。</li>
+  <li>App 的資料不參加 Google 雲端備份。</li>
+</ul>
+
+<h2>Google 的系統元件</h2>
+<ul>
+  <li>錄完自動取會議名稱、產生會議草稿，用的是「Gemini Nano」：Android 手機內建、在手機上執行的模型，會議內容不會送出手機。</li>
+  <li>App 透過 Google 的 ML Kit 使用 Gemini Nano（包括檢查這支手機能不能用 Gemini Nano）。ML Kit 會把診斷與使用統計送給 Google：裝置與安裝的識別碼、裝置與 App 的資訊、設定的語言、處理時間、輸入與輸出的<strong>長度</strong>、錯誤碼。<strong>不含會議內容</strong>，用途是讓 Google 改善與診斷這項功能。這由 Google 處理，App 無法關閉。</li>
+  <li>會議草稿也可以改用下載的「Qwen」或「Gemma」，這兩個模型完全在手機上執行，不會連網。</li>
+  <li>轉文字用的模型由 Google Play 跟 App 一起下載。Google Play 下載時會用到你的裝置資訊與 App 版本（用來派送對的檔案），這由 Google Play 處理。</li>
+</ul>
+
+<h2>網路連線</h2>
+<ul>
+  <li>App 自己只在你按了下載時，從 Hugging Face 下載離線 AI 模型（Qwen、Gemma）。下載不會帶上你的任何資料。</li>
+  <li>除此之外，App 不會自己開網路連線。</li>
+</ul>
+
+<h2>回報問題與閃退紀錄</h2>
+<ul>
+  <li>你在 App 裡按「回報問題」，會打開你的郵件 App。要不要寄、附什麼，都由你決定。</li>
+  <li>附件只含時間、數字與程式的紀錄，不含錄音、逐字稿與會議名稱。</li>
+  <li>如果你在手機的 Google 設定裡同意分享「使用情形與診斷資訊」，Google Play 會把閃退與當機的統計提供給開發者。這由 Google 處理，可以隨時關掉。</li>
+</ul>
+
+<h2>追蹤與廣告</h2>
+<p>沒有廣告、沒有追蹤、沒有分析工具。除了上面寫的 Google 系統元件，沒有其他第三方 SDK 收集資料。</p>
+
+<h2>聯絡</h2>
+<p>有問題請在 App 的「設定 › 回報問題」寫信給我們。</p>
+
+<hr>
+
+<h1 lang="en">Notetaker Privacy Policy (Android)</h1>
+<p class="date" lang="en">Last updated: October 30, 2026</p>
+<div lang="en">
+<p>Notetaker records meetings and turns them into transcripts on your Android phone. <strong>Your recordings, transcripts and meeting content never leave your phone</strong>, and we have no server to collect them. The one exception is described under "Google system components": the built-in Gemini Nano sends Google usage statistics that contain no meeting content.</p>
+
+<h2>Recordings and transcripts</h2>
+<ul>
+  <li>Recordings, transcripts and meeting drafts are made on your phone and stay there. Nothing is uploaded.</li>
+  <li>Speaker voiceprints and attendee lists are stored only on your phone.</li>
+  <li>When you tap Share or "Upload to ChatGPT or Claude", the file goes to the app you pick (Gmail, Messages, ChatGPT, Claude and so on), which handles it from then on.</li>
+  <li>If you choose a send folder or a voiceprint sync folder in Settings, the app writes files into the folder you picked. If that folder is in a cloud drive (such as Google Drive), the cloud service uploads and stores those files.</li>
+  <li>App data is excluded from Google cloud backup.</li>
+</ul>
+
+<h2>Google system components</h2>
+<ul>
+  <li>Automatic meeting titles and meeting drafts use Gemini Nano, a model built into Android that runs on your phone. Meeting content does not leave the phone.</li>
+  <li>The app uses Gemini Nano through Google's ML Kit (including checking whether your phone supports Gemini Nano). ML Kit sends diagnostic and usage statistics to Google: device and installation identifiers, device and app information, the configured language, processing time, the <strong>length</strong> of inputs and outputs, and error codes. <strong>It contains no meeting content.</strong> Google uses it to improve and diagnose the feature. Google handles this, and the app cannot turn it off.</li>
+  <li>Meeting drafts can also use the downloadable "Qwen" or "Gemma" models, which run entirely on your phone and never connect to the internet.</li>
+  <li>The speech recognition models are downloaded by Google Play together with the app. Google Play uses your device information and app version to deliver the right files. Google Play handles this.</li>
+</ul>
+
+<h2>Network</h2>
+<ul>
+  <li>The app itself connects only when you choose to download an offline AI model (Qwen, Gemma) from Hugging Face. No personal data is sent.</li>
+  <li>Apart from that, the app opens no network connections of its own.</li>
+</ul>
+
+<h2>Problem reports and crash logs</h2>
+<ul>
+  <li>Report a Problem opens your email app. You decide whether to send and what to attach.</li>
+  <li>Attachments contain only times, numbers and app logs. They never contain audio, transcripts or meeting names.</li>
+  <li>If you allow "Usage &amp; diagnostics" in your phone's Google settings, Google Play provides crash and freeze statistics to the developer. Google handles this, and you can turn it off at any time.</li>
+</ul>
+
+<h2>Tracking and ads</h2>
+<p>No ads, no tracking, no analytics. Apart from the Google system components above, no third-party SDKs collect data.</p>
+
+<h2>Contact</h2>
+<p>In the app, go to Settings › Report a Problem.</p>
+</div>
+</body>
+</html>
