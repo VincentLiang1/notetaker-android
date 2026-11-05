@@ -1,6 +1,16 @@
 {
  "releases": [
   {
+   "versionCode": 17,
+   "versionName": "0.0.17",
+   "date": "2026-11-06",
+   "notes": {
+    "zh-Hant": "• 不上網 AI 整理的會議紀錄草稿大幅改進：長會議也一段一段整理，決議與待辦抓得更完整，速度也更快\n• 待辦的負責人是 AI 推測的，會標上「(推測)」，請自己核對\n• 等待時間的預估更準",
+    "en": "• Much better offline AI meeting notes: long meetings are now summarized part by part, catching more decisions and action items, and faster\n• Action item owners are guessed by the AI and marked \"(inferred)\"; please double-check them\n• More accurate time estimates",
+    "zh-Hans": "• 不上网 AI 整理的会议纪录草稿大幅改进：长会议也一段一段整理，决议与待办抓得更完整，速度也更快\n• 待办的负责人是 AI 推测的，会标上「(推测)」，请自己核对\n• 等待时间的预估更准"
+   }
+  },
+  {
    "versionCode": 16,
    "versionName": "0.0.16",
    "date": "2026-11-05",
