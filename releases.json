@@ -1,6 +1,16 @@
 {
  "releases": [
   {
+   "versionCode": 19,
+   "versionName": "0.0.19",
+   "date": "2026-11-06",
+   "notes": {
+    "zh-Hant": "• 離線 AI 草稿：長會議有一段整理得不順時，不再整段丟掉，已寫好的決議與待辦照收\n• 離線 AI 草稿：待辦的期限可以是改寫過的說法（例如「預計兩週內」），只擋原文沒有的日期與星期",
+    "en": "• Offline AI draft: when one part of a long meeting goes off track, the decisions and action items already written for it are kept instead of discarded\n• Offline AI draft: action item deadlines may be paraphrased (e.g. \"within two weeks\"); only dates and weekdays not in the transcript are blocked",
+    "zh-Hans": "• 离线 AI 草稿：长会议有一段整理得不顺时，不再整段丢掉，已写好的决议与待办照收\n• 离线 AI 草稿：待办的期限可以是改写过的说法（例如「预计两周内」），只挡原文没有的日期与星期"
+   }
+  },
+  {
    "versionCode": 18,
    "versionName": "0.0.18",
    "date": "2026-11-06",
