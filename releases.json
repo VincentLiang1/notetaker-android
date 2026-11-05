@@ -6,7 +6,8 @@
    "date": "2026-11-05",
    "notes": {
     "zh-Hant": "• 錄音畫面上方的狀態條微調：計時不折行、開關排得更整齊\n• 「沒人說話自動停止」選單加上小標題",
-    "en": "• Recording status bar polish: the timer no longer wraps, switches are evenly spaced\n• The auto-stop menu now has a heading"
+    "en": "• Recording status bar polish: the timer no longer wraps, switches are evenly spaced\n• The auto-stop menu now has a heading",
+    "zh-Hans": "• 录音画面上方的状态条微调：计时不折行、开关排得更整齐\n• 「没人说话自动停止」菜单加上小标题"
    }
   },
   {
@@ -15,7 +16,8 @@
    "date": "2026-11-05",
    "notes": {
     "zh-Hant": "• 錄音畫面改版：上方縮成一條，計時、音波與三個開關（螢幕不鎖、沒人說話自動停止、鎖屏不顯示）都在這裡\n• 開始錄音先顯示逐字稿頁，按 ★ 切回重點\n• 手機溫度用顏色表示：正常綠、偏熱橘、很燙紫\n• 內螢幕兩欄排版對齊",
-    "en": "• Redesigned recording screen: a single bar at the top with the timer, level meter and three switches (keep screen on, auto-stop on silence, hide on lock screen)\n• Recording opens on the transcript page; tap ★ to go back to highlights\n• Phone temperature shown in color: green normal, orange warm, purple hot\n• Two-column layout on the inner screen lines up"
+    "en": "• Redesigned recording screen: a single bar at the top with the timer, level meter and three switches (keep screen on, auto-stop on silence, hide on lock screen)\n• Recording opens on the transcript page; tap ★ to go back to highlights\n• Phone temperature shown in color: green normal, orange warm, purple hot\n• Two-column layout on the inner screen lines up",
+    "zh-Hans": "• 录音画面改版：上方缩成一条，计时、音波与三个开关（屏幕不锁、没人说话自动停止、锁屏不显示）都在这里\n• 开始录音先显示逐字稿页，按 ★ 切回重点\n• 手机温度用颜色表示：正常绿、偏热橘、很烫紫\n• 内屏幕两栏排版对齐"
    }
   },
   {
@@ -24,7 +26,8 @@
    "date": "2026-11-05",
    "notes": {
     "zh-Hant": "• 電量低或過熱降級恢復後，即時逐字稿不再重複整理同一段",
-    "en": "• After low battery or overheating slowdowns end, the live transcript no longer processes the same stretch twice"
+    "en": "• After low battery or overheating slowdowns end, the live transcript no longer processes the same stretch twice",
+    "zh-Hans": "• 电量低或过热降级恢复后，实时逐字稿不再重复整理同一段"
    }
   },
   {
@@ -33,7 +36,8 @@
    "date": "2026-11-05",
    "notes": {
     "zh-Hant": "• 逐字稿字級調整，更好讀\n• 大字體時單場頁的按鈕不再擠在一起",
-    "en": "• Transcript text sizes adjusted for easier reading\n• Meeting page buttons no longer crowd together with large text"
+    "en": "• Transcript text sizes adjusted for easier reading\n• Meeting page buttons no longer crowd together with large text",
+    "zh-Hans": "• 逐字稿字级调整，更好读\n• 大字体时单场页的按钮不再挤在一起"
    }
   },
   {
@@ -42,7 +46,8 @@
    "date": "2026-11-05",
    "notes": {
     "zh-Hant": "• 錄音中的逐字稿頁往上捲不會再被拉回，有「回到最新」可按\n• 即時逐字稿更穩定\n• 命名頁與匯入的等待畫面改善",
-    "en": "• Scrolling up on the live transcript no longer jumps back; tap Back to latest\n• More reliable live transcript\n• Better waiting screens when naming and importing"
+    "en": "• Scrolling up on the live transcript no longer jumps back; tap Back to latest\n• More reliable live transcript\n• Better waiting screens when naming and importing",
+    "zh-Hans": "• 录音中的逐字稿页往上卷不会再被拉回，有「回到最新」可按\n• 实时逐字稿更稳定\n• 命名页与导入的等待画面改善"
    }
   },
   {
@@ -51,7 +56,8 @@
    "date": "2026-11-04",
    "notes": {
     "zh-Hant": "• 錄音中的逐字稿頁講完約 10 秒就出字\n• 錄音畫面拿掉電量顯示\n• 命名頁的「存檔中」改成卡片，不擋操作",
-    "en": "• The live transcript shows text about 10 seconds after someone speaks\n• Battery level removed from the recording screen\n• \"Saving\" on the naming page is now a card"
+    "en": "• The live transcript shows text about 10 seconds after someone speaks\n• Battery level removed from the recording screen\n• \"Saving\" on the naming page is now a card",
+    "zh-Hans": "• 录音中的逐字稿页讲完约 10 秒就出字\n• 录音画面拿掉电量显示\n• 命名页的「存盘中」改成卡片，不挡操作"
    }
   },
   {
@@ -60,7 +66,8 @@
    "date": "2026-11-04",
    "notes": {
     "zh-Hant": "• 產生會議紀錄時，進度條照實際進度走\n• 產生時手機不會自動鎖屏\n• 錯誤訊息改成建議上傳 ChatGPT 或 Claude",
-    "en": "• The meeting notes progress bar follows real progress\n• The phone stays awake while notes are generated\n• Error messages now suggest uploading to ChatGPT or Claude"
+    "en": "• The meeting notes progress bar follows real progress\n• The phone stays awake while notes are generated\n• Error messages now suggest uploading to ChatGPT or Claude",
+    "zh-Hans": "• 产生会议纪录时，进度条照实际进度走\n• 产生时手机不会自动锁屏\n• 错误消息改成建议上传 ChatGPT 或 Claude"
    }
   },
   {
@@ -69,7 +76,8 @@
    "date": "2026-11-04",
    "notes": {
     "zh-Hant": "• 支援 Android 11\n• 不能用 Gemini Nano 的手機不再顯示這個選項\n• 會議紀錄草稿產完直接打開\n• 修正 Android 12 開「裝置資訊」會閃退",
-    "en": "• Supports Android 11\n• Gemini Nano is hidden on phones that can't use it\n• Meeting drafts open as soon as they're ready\n• Fixed a crash opening Device info on Android 12"
+    "en": "• Supports Android 11\n• Gemini Nano is hidden on phones that can't use it\n• Meeting drafts open as soon as they're ready\n• Fixed a crash opening Device info on Android 12",
+    "zh-Hans": "• 支持 Android 11\n• 不能用 Gemini Nano 的手机不再显示这个选项\n• 会议纪录草稿产完直接打开\n• 修正 Android 12 开「设备信息」会闪退"
    }
   },
   {
@@ -78,7 +86,8 @@
    "date": "2026-11-03",
    "notes": {
     "zh-Hant": "• 可以在 App 裡更新：開 App 時檢查新版，或到「設定 › 關於 › 檢查更新」",
-    "en": "• In-app updates: checks for a new version when the app opens, or go to Settings › About › Check for updates"
+    "en": "• In-app updates: checks for a new version when the app opens, or go to Settings › About › Check for updates",
+    "zh-Hans": "• 可以在 App 里更新：开 App 时检查新版，或到「设置 › 关于 › 检查更新」"
    }
   }
  ]
