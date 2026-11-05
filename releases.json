@@ -1,6 +1,16 @@
 {
  "releases": [
   {
+   "versionCode": 18,
+   "versionName": "0.0.18",
+   "date": "2026-11-06",
+   "notes": {
+    "zh-Hant": "• 新版提示按「以後再說」後，24 小時內不再提醒（要更新可到 設定 › 關於 › 檢查更新）\n• 修正轉動螢幕時新版提示又跳出來",
+    "en": "• After tapping \"Later\" on the update prompt, it won't ask again for 24 hours (you can still check in Settings › About › Check for updates)\n• Fixed the update prompt reappearing when rotating the screen",
+    "zh-Hans": "• 新版提示按「以后再说」后，24 小时内不再提醒（要更新可到 设置 › 关于 › 检查更新）\n• 修正转动屏幕时新版提示又跳出来"
+   }
+  },
+  {
    "versionCode": 17,
    "versionName": "0.0.17",
    "date": "2026-11-06",
