@@ -1,0 +1,85 @@
+{
+ "releases": [
+  {
+   "versionCode": 15,
+   "versionName": "0.0.15",
+   "date": "2026-11-05",
+   "notes": {
+    "zh-Hant": "• 錄音畫面上方的狀態條微調：計時不折行、開關排得更整齊\n• 「沒人說話自動停止」選單加上小標題",
+    "en": "• Recording status bar polish: the timer no longer wraps, switches are evenly spaced\n• The auto-stop menu now has a heading"
+   }
+  },
+  {
+   "versionCode": 14,
+   "versionName": "0.0.14",
+   "date": "2026-11-05",
+   "notes": {
+    "zh-Hant": "• 錄音畫面改版：上方縮成一條，計時、音波與三個開關（螢幕不鎖、沒人說話自動停止、鎖屏不顯示）都在這裡\n• 開始錄音先顯示逐字稿頁，按 ★ 切回重點\n• 手機溫度用顏色表示：正常綠、偏熱橘、很燙紫\n• 內螢幕兩欄排版對齊",
+    "en": "• Redesigned recording screen: a single bar at the top with the timer, level meter and three switches (keep screen on, auto-stop on silence, hide on lock screen)\n• Recording opens on the transcript page; tap ★ to go back to highlights\n• Phone temperature shown in color: green normal, orange warm, purple hot\n• Two-column layout on the inner screen lines up"
+   }
+  },
+  {
+   "versionCode": 13,
+   "versionName": "0.0.13",
+   "date": "2026-11-05",
+   "notes": {
+    "zh-Hant": "• 電量低或過熱降級恢復後，即時逐字稿不再重複整理同一段",
+    "en": "• After low battery or overheating slowdowns end, the live transcript no longer processes the same stretch twice"
+   }
+  },
+  {
+   "versionCode": 12,
+   "versionName": "0.0.12",
+   "date": "2026-11-05",
+   "notes": {
+    "zh-Hant": "• 逐字稿字級調整，更好讀\n• 大字體時單場頁的按鈕不再擠在一起",
+    "en": "• Transcript text sizes adjusted for easier reading\n• Meeting page buttons no longer crowd together with large text"
+   }
+  },
+  {
+   "versionCode": 11,
+   "versionName": "0.0.11",
+   "date": "2026-11-05",
+   "notes": {
+    "zh-Hant": "• 錄音中的逐字稿頁往上捲不會再被拉回，有「回到最新」可按\n• 即時逐字稿更穩定\n• 命名頁與匯入的等待畫面改善",
+    "en": "• Scrolling up on the live transcript no longer jumps back; tap Back to latest\n• More reliable live transcript\n• Better waiting screens when naming and importing"
+   }
+  },
+  {
+   "versionCode": 10,
+   "versionName": "0.0.10",
+   "date": "2026-11-04",
+   "notes": {
+    "zh-Hant": "• 錄音中的逐字稿頁講完約 10 秒就出字\n• 錄音畫面拿掉電量顯示\n• 命名頁的「存檔中」改成卡片，不擋操作",
+    "en": "• The live transcript shows text about 10 seconds after someone speaks\n• Battery level removed from the recording screen\n• \"Saving\" on the naming page is now a card"
+   }
+  },
+  {
+   "versionCode": 9,
+   "versionName": "0.0.9",
+   "date": "2026-11-04",
+   "notes": {
+    "zh-Hant": "• 產生會議紀錄時，進度條照實際進度走\n• 產生時手機不會自動鎖屏\n• 錯誤訊息改成建議上傳 ChatGPT 或 Claude",
+    "en": "• The meeting notes progress bar follows real progress\n• The phone stays awake while notes are generated\n• Error messages now suggest uploading to ChatGPT or Claude"
+   }
+  },
+  {
+   "versionCode": 8,
+   "versionName": "0.0.8",
+   "date": "2026-11-04",
+   "notes": {
+    "zh-Hant": "• 支援 Android 11\n• 不能用 Gemini Nano 的手機不再顯示這個選項\n• 會議紀錄草稿產完直接打開\n• 修正 Android 12 開「裝置資訊」會閃退",
+    "en": "• Supports Android 11\n• Gemini Nano is hidden on phones that can't use it\n• Meeting drafts open as soon as they're ready\n• Fixed a crash opening Device info on Android 12"
+   }
+  },
+  {
+   "versionCode": 7,
+   "versionName": "0.0.7",
+   "date": "2026-11-03",
+   "notes": {
+    "zh-Hant": "• 可以在 App 裡更新：開 App 時檢查新版，或到「設定 › 關於 › 檢查更新」",
+    "en": "• In-app updates: checks for a new version when the app opens, or go to Settings › About › Check for updates"
+   }
+  }
+ ]
+}
