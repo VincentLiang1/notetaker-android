@@ -1,6 +1,16 @@
 {
  "releases": [
   {
+   "versionCode": 20,
+   "versionName": "0.0.20",
+   "date": "2026-11-06",
+   "notes": {
+    "zh-Hant": "• 離線 AI 草稿：長會議某一段整理時鬼打牆，只略過打轉的那部分，其他決議與待辦照收\n• 離線 AI 草稿：不再把「百分比」「萬一」這類字當成數字而誤丟條目\n• 離線 AI 草稿：待辦的負責人寫到下一行時，會接回原本那一條\n• 離線 AI 草稿：減少把沒談到的專有名詞一長串寫進摘要",
+    "en": "• Offline AI draft: when one part of a long meeting goes off track, only that part is skipped; other decisions and action items are kept\n• Offline AI draft: words like \"percent\" in Chinese are no longer mistaken for numbers, so items are not wrongly dropped\n• Offline AI draft: an action item's owner written on the next line is joined back to that item\n• Offline AI draft: fewer summaries that list technical terms not discussed in the meeting",
+    "zh-Hans": "• 离线 AI 草稿：长会议某一段整理时鬼打墙，只略过打转的那部分，其他决议与待办照收\n• 离线 AI 草稿：不再把「百分比」「万一」这类字当成数字而误丢条目\n• 离线 AI 草稿：待办的负责人写到下一行时，会接回原本那一条\n• 离线 AI 草稿：减少把没谈到的专有名词一长串写进摘要"
+   }
+  },
+  {
    "versionCode": 19,
    "versionName": "0.0.19",
    "date": "2026-11-06",
