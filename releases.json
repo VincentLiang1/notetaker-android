@@ -1,6 +1,16 @@
 {
  "releases": [
   {
+   "versionCode": 26,
+   "versionName": "0.0.26",
+   "date": "2026-11-07",
+   "notes": {
+    "zh-Hant": "• 會議列表、單場頁、錄音畫面的小圖示（時間、人數、重點）放大，手機字級調大時也跟著變大\n• 設定裡的選單（錄音保留、語言等）從右邊按鈕旁出現，不再從左邊彈出",
+    "en": "• Small icons (time, speakers, highlights) in the meeting list, meeting page and recording screen are larger, and grow with your phone's text size\n• Menus in Settings (recording retention, language, and more) now open next to the button on the right instead of from the left",
+    "zh-Hans": "• 会议列表、单场页、录音画面的小图标（时间、人数、重点）放大，手机字级调大时也跟着变大\n• 设置里的菜单（录音保留、语言等）从右边按钮旁出现，不再从左边弹出"
+   }
+  },
+  {
    "versionCode": 25,
    "versionName": "0.0.25",
    "date": "2026-11-07",
