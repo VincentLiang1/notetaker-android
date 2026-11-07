@@ -1,6 +1,16 @@
 {
  "releases": [
   {
+   "versionCode": 28,
+   "versionName": "0.0.28",
+   "date": "2026-11-07",
+   "notes": {
+    "zh-Hant": "• 產生會議草稿時按「停止產生」，畫面留在原處，不會自己打開草稿頁\n• 「停止產生」前面加上停止圖示",
+    "en": "• Tapping \"Stop\" while a meeting draft is generating keeps you on the same screen instead of opening the draft page\n• \"Stop\" now has a stop icon",
+    "zh-Hans": "• 产生会议草稿时按「停止产生」，画面留在原处，不会自己打开草稿页\n• 「停止产生」前面加上停止图标"
+   }
+  },
+  {
    "versionCode": 27,
    "versionName": "0.0.27",
    "date": "2026-11-07",
