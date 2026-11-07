@@ -1,6 +1,16 @@
 {
  "releases": [
   {
+   "versionCode": 27,
+   "versionName": "0.0.27",
+   "date": "2026-11-07",
+   "notes": {
+    "zh-Hant": "• 設定 › 聲紋與名單加「電腦端請裝會議助手電腦版」，點了開使用手冊，開頭就是免費下載連結（照介面語言）\n• 說明裡的「電腦版」改稱「會議助手電腦版」",
+    "en": "• Settings › Voiceprints & List now has \"Get Notetaker Desktop for your computer\", which opens the guide with the free download link at the top (in your interface language)\n• Help text now calls the desktop app \"Notetaker Desktop\"",
+    "zh-Hans": "• 设置 › 声纹与名单加「电脑端请装会议助手电脑版」，点了开使用手册，开头就是免费下载链接（照界面语言）\n• 说明里的「电脑版」改称「会议助手电脑版」"
+   }
+  },
+  {
    "versionCode": 26,
    "versionName": "0.0.26",
    "date": "2026-11-07",
