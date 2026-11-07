@@ -1,6 +1,16 @@
 {
  "releases": [
   {
+   "versionCode": 24,
+   "versionName": "0.0.24",
+   "date": "2026-11-07",
+   "notes": {
+    "zh-Hant": "• 錄音中的逐字稿：時間自己一行，文字用滿整個寬度\n• 錄音畫面「重點｜逐字稿」切換鈕、首頁標題字變大，跟 iPhone 一樣\n• 英文介面不再出現中文字：沒填名稱的會議叫 Untitled-…、講者叫 Speaker 1、標點與錯誤訊息都是英文\n• 英文會議的逐字稿標記改用英文常用的 [ ] 符號\n• 會議草稿整頁跟著會議的語言：中文會議是中文、英文會議是英文",
+    "en": "• Live transcript while recording: the time sits on its own line and the text uses the full width\n• Larger text for the Highlights | Transcript switch and the home title, matching iPhone\n• No more Chinese text in the English interface: untitled meetings are named Untitled-…, speakers Speaker 1, and punctuation and error messages are in English\n• Marks in English meeting transcripts now use [ ] brackets\n• Meeting drafts follow the meeting's language: Chinese for Chinese meetings, English for English meetings",
+    "zh-Hans": "• 录音中的逐字稿：时间自己一行，文字用满整个宽度\n• 录音画面「重点｜逐字稿」切换钮、首页标题字变大，跟 iPhone 一样\n• 英文界面不再出现中文字：没填名称的会议叫 Untitled-…、讲者叫 Speaker 1、标点与错误消息都是英文\n• 英文会议的逐字稿标记改用英文常用的 [ ] 符号\n• 会议草稿整页跟着会议的语言：中文会议是中文、英文会议是英文"
+   }
+  },
+  {
    "versionCode": 23,
    "versionName": "0.0.23",
    "date": "2026-11-07",
