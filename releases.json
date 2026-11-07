@@ -1,6 +1,16 @@
 {
  "releases": [
   {
+   "versionCode": 25,
+   "versionName": "0.0.25",
+   "date": "2026-11-07",
+   "notes": {
+    "zh-Hant": "• 換介面語言之後，錯誤訊息、更新說明、整理進度、錄音中的通知都會跟著換，不會留著原本的語言\n• 「什麼是 LLM Wiki」、安裝說明等連結直接開介面語言的版本\n• 新的逐字稿多記一個格式版本；遇到較新版本產生的逐字稿，會先請你更新 App",
+    "en": "• After switching the interface language, error messages, release notes, progress text and the recording notification switch too, instead of staying in the old language\n• Links such as \"What is an LLM Wiki\" and the install guides open in your interface language\n• New transcripts record a format version; if a transcript was made by a newer version of the app, you'll be asked to update first",
+    "zh-Hans": "• 换界面语言之后，错误消息、更新说明、整理进度、录音中的通知都会跟着换，不会留着原本的语言\n• 「什么是 LLM Wiki」、安装说明等链接直接开界面语言的版本\n• 新的逐字稿多记一个格式版本；遇到较新版本产生的逐字稿，会先请你更新 App"
+   }
+  },
+  {
    "versionCode": 24,
    "versionName": "0.0.24",
    "date": "2026-11-07",
