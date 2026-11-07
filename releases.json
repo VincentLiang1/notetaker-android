@@ -1,6 +1,16 @@
 {
  "releases": [
   {
+   "versionCode": 23,
+   "versionName": "0.0.23",
+   "date": "2026-11-07",
+   "notes": {
+    "zh-Hant": "• 會議紀錄草稿改成正式會議紀錄的排版：標題、時間、與會者（機器辨識的加 ※）、待辦用表格，分享出去也是同一個格式\n• 一個人講的（演講、口述）只整理摘要和重點；兩個人的叫「對談紀錄」\n• 產生草稿時可以按「停止產生」，並顯示預估要多久\n• 離線 AI 整理更準：決議不會再被相近的待辦誤刪，Qwen 短會議多留幾個未決問題",
+    "en": "• Meeting draft now uses a proper minutes layout: title, time, attendees (※ marks machine-recognized names), and a to-do table; sharing uses the same format\n• One-speaker recordings (talks, dictation) get only a summary and key points; two-speaker ones are titled \"Conversation notes\"\n• You can tap \"Stop\" while a draft is generating, with an estimated wait time shown\n• More accurate offline AI drafts: decisions are no longer dropped as duplicates of similar to-dos, and Qwen keeps more open questions in short meetings",
+    "zh-Hans": "• 会议记录草稿改成正式会议记录的排版：标题、时间、与会者（机器识别的加 ※）、待办用表格，分享出去也是同一个格式\n• 一个人讲的（演讲、口述）只整理摘要和重点；两个人的叫「对谈记录」\n• 生成草稿时可以按「停止生成」，并显示预计要多久\n• 离线 AI 整理更准：决议不会再被相近的待办误删，Qwen 短会议多留几个未决问题"
+   }
+  },
+  {
    "versionCode": 22,
    "versionName": "0.0.22",
    "date": "2026-11-07",
