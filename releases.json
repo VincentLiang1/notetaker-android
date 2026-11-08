@@ -1,6 +1,16 @@
 {
  "releases": [
   {
+   "versionCode": 29,
+   "versionName": "0.0.29",
+   "date": "2026-11-08",
+   "notes": {
+    "zh-Hant": "• 錄音中逐字稿頁的字更快出現(講完約 5 秒);錄音中先看到的字可能稍不準,最後存下的逐字稿不受影響\n• 會後改講者名字時,重新產生逐字稿變快\n• 改名時,機器辨識出的名字沒換就保留「機器辨識」標記,換了名字才算人工確認",
+    "en": "• Live transcript text now appears faster while recording (about 5 seconds after speech); this early text may be slightly less accurate, the saved transcript is unaffected\n• Re-generating the transcript after renaming speakers is faster\n• When renaming, a machine-identified name that stays the same keeps its \"machine-identified\" mark; changing the name marks it as confirmed by you",
+    "zh-Hans": "• 录音中逐字稿页的字更快出现(讲完约 5 秒);录音中先看到的字可能稍不准,最后存下的逐字稿不受影响\n• 会后改讲者名字时,重新产生逐字稿变快\n• 改名时,机器辨识出的名字没换就保留「机器辨识」标记,换了名字才算人工确认"
+   }
+  },
+  {
    "versionCode": 28,
    "versionName": "0.0.28",
    "date": "2026-11-07",
