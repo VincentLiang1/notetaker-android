@@ -1,6 +1,16 @@
 {
  "releases": [
   {
+   "versionCode": 30,
+   "versionName": "0.0.30",
+   "date": "2026-11-09",
+   "notes": {
+    "zh-Hant": "• 新增「會議助手全套服務架構」頁（設定 › 關於、模式切換頁）：一張圖看懂手機、電腦版、知識庫怎麼串起來\n• 送進知識庫可以用 Google 雲端硬碟；電腦收走後，手機會更快顯示「電腦已收件」\n• 送出資料夾的說明加一句：選擇器看不到雲端硬碟時，先啟用 Google 雲端硬碟 App\n• 外螢幕橫放、內螢幕直放改成單欄顯示",
+    "en": "• New \"How Notetaker Fits Together\" page (Settings › About, and the mode page): one diagram showing how the phone, Notetaker Desktop and the knowledge base connect\n• Send to the knowledge base through Google Drive; the phone now shows \"Received\" sooner after the computer picks a file up\n• The send folder note adds: if the picker doesn't list Google Drive, enable the Google Drive app first\n• The cover screen in landscape and the main screen in portrait now use a single column",
+    "zh-Hans": "• 添加「会议助手全套服务架构」页（设置 › 关于、模式切换页）：一张图看懂手机、电脑版、知识库怎么串起来\n• 送进知识库可以用 Google 云端硬盘；电脑收走后，手机会更快显示「电脑已收件」\n• 发送文件夹的说明加一句：选择器看不到云端硬盘时，先激活 Google 云端硬盘 App\n• 外屏幕横放、内屏幕直放改成单栏显示"
+   }
+  },
+  {
    "versionCode": 29,
    "versionName": "0.0.29",
    "date": "2026-11-08",
