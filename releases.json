@@ -1,6 +1,16 @@
 {
  "releases": [
   {
+   "versionCode": 31,
+   "versionName": "0.0.31",
+   "date": "2026-11-10",
+   "notes": {
+    "zh-Hant": "• 〈會議助手全套服務架構〉的流程圖標出「此裝置」，一眼看出你在哪裡\n• 講清楚電腦版與 Wiki Agent 可以裝在同一台電腦，不用三套設備；沒裝電腦版、只用手機也可以\n• Scribe2MD 改成由電腦版內含、Wiki Agent 自動安裝，並加上「Scribe2MD 介紹」連結",
+    "en": "• The overview diagram now marks \"This device\" so you can see where you are\n• Clarified that Notetaker Desktop and Wiki Agent can run on the same computer — no third device needed; it also works with just the phone\n• Scribe2MD is now described as built into Notetaker Desktop and installed automatically by Wiki Agent, with an \"About Scribe2MD\" link",
+    "zh-Hans": "• 〈会议助手全套服务架构〉的流程图标出「此设备」，一眼看出你在哪里\n• 讲清楚电脑版与 Wiki Agent 可以装在同一台电脑，不用三套设备；没装电脑版、只用手机也可以\n• Scribe2MD 改成由电脑版内含、Wiki Agent 自动安装，并加上「Scribe2MD 介绍」链接"
+   }
+  },
+  {
    "versionCode": 30,
    "versionName": "0.0.30",
    "date": "2026-11-09",
