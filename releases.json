@@ -1,6 +1,16 @@
 {
  "releases": [
   {
+   "versionCode": 33,
+   "versionName": "0.0.33",
+   "date": "2026-11-11",
+   "notes": {
+    "zh-Hant": "• 加強安全性：快速設定的「一鍵開錄」只聽系統按鈕，其他 App 不能替你開始錄音\n• 從別的 App 分享錄音進來時，只接受一般的檔案分享\n• 回報問題附上的閃退紀錄，會更完整地遮掉會議名稱\n• 匯入電腦版聲紋、同步聲紋時，遇到壞掉或可疑的檔案會直接拒收，不會閃退\n• 修正：整理逐字稿時按了快速設定的磚，再點通知會開始一場新錄音",
+    "en": "• Security: the Quick Settings record tile now only responds to the system button, so other apps can't start a recording for you\n• Recordings shared from other apps are accepted only through normal file sharing\n• Crash reports attached to feedback now hide meeting names more thoroughly\n• Damaged or suspicious files are rejected when importing voiceprints from Notetaker Desktop or syncing them, instead of crashing\n• Fix: tapping the notification after using the Quick Settings tile while a transcript was being prepared started a new recording",
+    "zh-Hans": "• 加强安全性：快速设置的「一键开录」只听系统按钮，其他 App 不能替你开始录音\n• 从别的 App 分享录音进来时，只接受一般的文件分享\n• 回报问题附上的闪退纪录，会更完整地遮掉会议名称\n• 导入电脑版声纹、同步声纹时，遇到坏掉或可疑的文件会直接拒收，不会闪退\n• 修正：整理逐字稿时按了快速设置的砖，再点通知会开始一场新录音"
+   }
+  },
+  {
    "versionCode": 32,
    "versionName": "0.0.32",
    "date": "2026-11-10",
