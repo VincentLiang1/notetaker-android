@@ -1,6 +1,16 @@
 {
  "releases": [
   {
+   "versionCode": 34,
+   "versionName": "0.0.34",
+   "date": "2026-11-12",
+   "notes": {
+    "zh-Hant": "• 新的 App 圖示\n• 〈會議助手全套服務架構〉圖：知識庫畫成雲端硬碟裡的資料夾；拿掉「沒裝電腦版、只用手機也可以」",
+    "en": "• New app icon\n• \"Notetaker Suite Overview\" diagram: the knowledge base is now drawn as a folder in your cloud drive; removed \"You can also use the phone alone without the desktop app\"",
+    "zh-Hans": "• 新的 App 图标\n• 〈会议助手全套服务架构〉图：知识库画成云端硬盘里的文件夹；拿掉「没装电脑版、只用手机也可以」"
+   }
+  },
+  {
    "versionCode": 33,
    "versionName": "0.0.33",
    "date": "2026-11-11",
