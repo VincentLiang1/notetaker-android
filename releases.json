@@ -1,6 +1,16 @@
 {
  "releases": [
   {
+   "versionCode": 35,
+   "versionName": "0.0.35",
+   "date": "2026-11-14",
+   "notes": {
+    "zh-Hant": "• App 圖示縮回原本的大小(跟 iPhone 版一致)\n• 內部程式整理、加強自動測試(功能不變)",
+    "en": "• App icon is back to its original size (same as the iPhone version)\n• Internal cleanup and stronger automated tests (no feature changes)",
+    "zh-Hans": "• App 图标缩回原本的大小(跟 iPhone 版一致)\n• 内部程序整理、加强自动测试(功能不变)"
+   }
+  },
+  {
    "versionCode": 34,
    "versionName": "0.0.34",
    "date": "2026-11-12",
