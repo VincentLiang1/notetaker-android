@@ -1,6 +1,16 @@
 {
  "releases": [
   {
+   "versionCode": 36,
+   "versionName": "0.0.36",
+   "date": "2026-11-15",
+   "notes": {
+    "zh-Hant": "• 每一版發佈前加做手機實機檢查(轉文字、分講者、聲紋認人),降低新版出問題的機會;功能沒有變",
+    "en": "• Every release is now checked on a real phone before shipping (transcription, speaker separation, voiceprint matching); no feature changes",
+    "zh-Hans": "• 每一版发布前加做手机实机检查(转文字、分讲者、声纹认人),降低新版出问题的机会;功能没有变"
+   }
+  },
+  {
    "versionCode": 35,
    "versionName": "0.0.35",
    "date": "2026-11-14",
