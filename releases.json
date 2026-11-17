@@ -1,6 +1,16 @@
 {
  "releases": [
   {
+   "versionCode": 37,
+   "versionName": "0.0.37",
+   "date": "2026-11-17",
+   "notes": {
+    "zh-Hant": "• 錄音時切到「重點」或「逐字稿」，下次開始錄音會直接停在那一頁",
+    "en": "• The recording screen now remembers whether you last switched to Highlights or Transcript, and opens on that tab next time",
+    "zh-Hans": "• 录音时切到「重点」或「逐字稿」，下次开始录音会直接停在那一页"
+   }
+  },
+  {
    "versionCode": 36,
    "versionName": "0.0.36",
    "date": "2026-11-15",
@@ -289,16 +299,7 @@
     "en": "• Supports Android 11\n• Gemini Nano is hidden on phones that can't use it\n• Meeting drafts open as soon as they're ready\n• Fixed a crash opening Device info on Android 12",
     "zh-Hans": "• 支持 Android 11\n• 不能用 Gemini Nano 的手机不再显示这个选项\n• 会议纪录草稿产完直接打开\n• 修正 Android 12 开「设备信息」会闪退"
    }
-  },
-  {
-   "versionCode": 7,
-   "versionName": "0.0.7",
-   "date": "2026-11-03",
-   "notes": {
-    "zh-Hant": "• 可以在 App 裡更新：開 App 時檢查新版，或到「設定 › 關於 › 檢查更新」",
-    "en": "• In-app updates: checks for a new version when the app opens, or go to Settings › About › Check for updates",
-    "zh-Hans": "• 可以在 App 里更新：开 App 时检查新版，或到「设置 › 关于 › 检查更新」"
-   }
   }
- ]
+ ],
+ "trimmedThrough": 7
 }
