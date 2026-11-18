@@ -1,6 +1,16 @@
 {
  "releases": [
   {
+   "versionCode": 38,
+   "versionName": "0.0.38",
+   "date": "2026-11-18",
+   "notes": {
+    "zh-Hant": "• 新增「推薦給朋友」(設定 › 關於):把下載方式傳給同事朋友，分享時會顯示 App 標誌\n• 做好第 3 場逐字稿時，邀請你在 Google Play 評分（只問一次）\n• 設定瘦身：螢幕不自動鎖定、鎖屏時不顯示錄音中、沒人說話自動停止，改在錄音畫面直接切換\n• 「完整服務架構」移到「歡迎畫面」下一列",
+    "en": "• New \"Recommend to a Friend\" (Settings › About): share how to download the app, with the app logo in the share sheet\n• After your 3rd transcript, we'll invite you to rate the app on Google Play (asked only once)\n• Simpler Settings: keep screen on, hide recording on lock screen, and auto-stop on silence are now toggled right on the recording screen\n• \"Full Service Architecture\" moved below \"Welcome Screen\"",
+    "zh-Hans": "• 添加「推荐给朋友」(设置 › 关于):把下载方式传给同事朋友，分享时会显示 App 标志\n• 做好第 3 场逐字稿时，邀请你在 Google Play 评分（只问一次）\n• 设置瘦身：屏幕不自动锁定、锁屏时不显示录音中、没人说话自动停止，改在录音画面直接切换\n• 「完整服务架构」移到「欢迎画面」下一列"
+   }
+  },
+  {
    "versionCode": 37,
    "versionName": "0.0.37",
    "date": "2026-11-17",
@@ -289,17 +299,7 @@
     "en": "• The meeting notes progress bar follows real progress\n• The phone stays awake while notes are generated\n• Error messages now suggest uploading to ChatGPT or Claude",
     "zh-Hans": "• 产生会议纪录时，进度条照实际进度走\n• 产生时手机不会自动锁屏\n• 错误消息改成建议上传 ChatGPT 或 Claude"
    }
-  },
-  {
-   "versionCode": 8,
-   "versionName": "0.0.8",
-   "date": "2026-11-04",
-   "notes": {
-    "zh-Hant": "• 支援 Android 11\n• 不能用 Gemini Nano 的手機不再顯示這個選項\n• 會議紀錄草稿產完直接打開\n• 修正 Android 12 開「裝置資訊」會閃退",
-    "en": "• Supports Android 11\n• Gemini Nano is hidden on phones that can't use it\n• Meeting drafts open as soon as they're ready\n• Fixed a crash opening Device info on Android 12",
-    "zh-Hans": "• 支持 Android 11\n• 不能用 Gemini Nano 的手机不再显示这个选项\n• 会议纪录草稿产完直接打开\n• 修正 Android 12 开「设备信息」会闪退"
-   }
   }
  ],
- "trimmedThrough": 7
+ "trimmedThrough": 8
 }
