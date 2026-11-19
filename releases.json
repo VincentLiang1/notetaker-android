@@ -1,6 +1,16 @@
 {
  "releases": [
   {
+   "versionCode": 40,
+   "versionName": "0.0.40",
+   "date": "2026-11-19",
+   "notes": {
+    "zh-Hant": "• 「推薦給朋友」改成直接分享 Google Play 下載網址\n• 回報問題的信件主旨拿掉「測試版」",
+    "en": "• \"Recommend to a friend\" now shares the Google Play link directly\n• The feedback email subject no longer says \"beta\"",
+    "zh-Hans": "• 「推荐给朋友」改成直接分享 Google Play 下载网址\n• 回报问题的信件主旨拿掉「测试版」"
+   }
+  },
+  {
    "versionCode": 39,
    "versionName": "0.0.39",
    "date": "2026-11-19",
@@ -289,17 +299,7 @@
     "en": "• Scrolling up on the live transcript no longer jumps back; tap Back to latest\n• More reliable live transcript\n• Better waiting screens when naming and importing",
     "zh-Hans": "• 录音中的逐字稿页往上卷不会再被拉回，有「回到最新」可按\n• 实时逐字稿更稳定\n• 命名页与导入的等待画面改善"
    }
-  },
-  {
-   "versionCode": 10,
-   "versionName": "0.0.10",
-   "date": "2026-11-04",
-   "notes": {
-    "zh-Hant": "• 錄音中的逐字稿頁講完約 10 秒就出字\n• 錄音畫面拿掉電量顯示\n• 命名頁的「存檔中」改成卡片，不擋操作",
-    "en": "• The live transcript shows text about 10 seconds after someone speaks\n• Battery level removed from the recording screen\n• \"Saving\" on the naming page is now a card",
-    "zh-Hans": "• 录音中的逐字稿页讲完约 10 秒就出字\n• 录音画面拿掉电量显示\n• 命名页的「存盘中」改成卡片，不挡操作"
-   }
   }
  ],
- "trimmedThrough": 9
+ "trimmedThrough": 10
 }
