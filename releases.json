@@ -1,6 +1,16 @@
 {
  "releases": [
   {
+   "versionCode": 39,
+   "versionName": "0.0.39",
+   "date": "2026-11-19",
+   "notes": {
+    "zh-Hant": "• 命名畫面的講者名字欄變矮，一頁看得到更多講者\n• 停止錄音後，逐字稿稍微快一點出來",
+    "en": "• Speaker name fields on the naming screen are more compact, so you see more speakers at once\n• Transcripts are ready a little sooner after you stop recording",
+    "zh-Hans": "• 命名画面的讲者名字栏变矮，一页看得到更多讲者\n• 停止录音后，逐字稿稍微快一点出来"
+   }
+  },
+  {
    "versionCode": 38,
    "versionName": "0.0.38",
    "date": "2026-11-18",
@@ -289,17 +299,7 @@
     "en": "• The live transcript shows text about 10 seconds after someone speaks\n• Battery level removed from the recording screen\n• \"Saving\" on the naming page is now a card",
     "zh-Hans": "• 录音中的逐字稿页讲完约 10 秒就出字\n• 录音画面拿掉电量显示\n• 命名页的「存盘中」改成卡片，不挡操作"
    }
-  },
-  {
-   "versionCode": 9,
-   "versionName": "0.0.9",
-   "date": "2026-11-04",
-   "notes": {
-    "zh-Hant": "• 產生會議紀錄時，進度條照實際進度走\n• 產生時手機不會自動鎖屏\n• 錯誤訊息改成建議上傳 ChatGPT 或 Claude",
-    "en": "• The meeting notes progress bar follows real progress\n• The phone stays awake while notes are generated\n• Error messages now suggest uploading to ChatGPT or Claude",
-    "zh-Hans": "• 产生会议纪录时，进度条照实际进度走\n• 产生时手机不会自动锁屏\n• 错误消息改成建议上传 ChatGPT 或 Claude"
-   }
   }
  ],
- "trimmedThrough": 8
+ "trimmedThrough": 9
 }
